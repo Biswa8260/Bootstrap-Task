@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WebSphere — About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">WebSphere</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav2">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav2">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <!-- Sidebar -->
+   <div class="col-md-3 col-lg-2 d-md-block bg-light sidebar p-3">
+  <div class="dropdown">
+    <button class="btn   dropdown-toggle w-100" type="button" id="sidebarDropdownButton" data-bs-toggle="dropdown" aria-expanded="false">
+      Menu
+    </button>
+    <ul class="dropdown-menu w-100" aria-labelledby="sidebarDropdownButton">
+      <li><a class="dropdown-item" href="index.html">Dashboard</a></li>
+      <li><a class="dropdown-item" href="about.html">About</a></li>
+      <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</div>
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+
+<main class="py-5">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+      <div class="col-md-6">
+        <h1 class="fw-bold">About us</h1>
+        <p class="lead text-muted">"WebSphere is a comprehensive platform designed for developers and businesses to create professional, responsive websites with minimal effort. By combining modern design principles with Bootstrap’s powerful components, WebSphere ensures your web pages are not only visually appealing but also fully functional across all devices. Whether you’re building a personal portfolio, a business site, or a web application, WebSphere streamlines development and accelerates deployment."</p>
+        
+      </div>
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Our Process</h5>
+            <p class="card-text text-muted">We review components, extract patterns, and compose original pages.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-5">
+     <style>
+  /* Card hover effect */
+  .card:hover {
+    background-color: #f0f8ff; 
+    transform: translateY(-5px); 
+    transition: all 0.3s ease;
+  }
+</style>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5>Design</h5>
+            <p class="text-muted">Focus on spacing, color, and readable typography.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5>Development</h5>
+            <p class="text-muted">Build responsive layouts with Bootstrap utilities and grid.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5>Deploy</h5>
+            <p class="text-muted">Push to Git and publish on GitHub Pages or Netlify.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="py-4 bg-dark text-white text-center">
+  <div class="container small">© <span id="yr2"></span>WebSphere</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script>document.getElementById('yr2').textContent = new Date().getFullYear();</script>
+</body>
+</html>
